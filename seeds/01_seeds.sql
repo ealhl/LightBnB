@@ -5,7 +5,9 @@ INSERT INTO users (
     (
     'Louisa Meyer ', 'jacksonrose@hotmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'),
     (
-    'Dominic Parks', 'victoriablackwell@outlook.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
+    'Dominic Parks', 'victoriablackwell@outlook.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'),
+    (
+    'Test NOBook', 'nobook@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
 
 INSERT INTO properties (
     owner_id, title, description, thumbnail_photo_url, cover_photo_url, cost_per_night, parking_spaces, number_of_bathrooms, number_of_bedrooms, country, street, city, province, post_code ,active) 
@@ -23,7 +25,9 @@ INSERT INTO properties (
       (
         '2019-01-04', '2019-02-01',2, 2),
        (
-        '2023-10-01', '2023-10-14',1, 3);
+        '2023-10-01', '2023-10-14',1, 3),
+        (
+        '2023-01-01', '2023-01-23',2, 4);
 
     INSERT INTO property_reviews (
     guest_id, property_id, reservation_id, rating, message) 
@@ -32,6 +36,8 @@ INSERT INTO properties (
     (
       2, 2, 2, 4, 'message'),
     (
-      3, 1, 3, 4, 'message');
+      3, 1, 3, 4, 'message'),
+      (
+      4, 1, 3, 4, 'message');
 
   
