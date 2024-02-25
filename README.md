@@ -11,8 +11,8 @@ Lighthouse BnB is an app that will revolutionize the travel industry. It will al
 
 1. [Create](https://github.com/ealhl/LightBnB.git) a new repository using this repository as a template.
 2. Clone your repository onto your local device.
-3. Install dependencies using the `npm install` command.
-4. Run psql command and create your own database
+3. Install dependencies using the `npm install` command and cd to LightBnB_WebApp folder
+4. Run psql to create your own db and update database.js pool info for your own db
 5. Install schema using the `\i migrations/01_schema.sql` command.
 6. Install 01 seeds file using the `\i seeds/01_seeds.sql` command.
 7. Install 02 seeds file using the `\i seeds/02_seeds.sql` command.
