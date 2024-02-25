@@ -56,7 +56,6 @@ const addUser = function (user) {
       [user.name, user.email, user.password]
     )
     .then((result) => {
-      // console.log("add user", result.rows[0]);
       return result.rows[0];
     })
     .catch((err) => {
@@ -135,7 +134,6 @@ const getAllProperties = (options, limit = 10) => {
     queryParams.push(`%${options.city}%`);
     queryString += `WHERE city LIKE $${queryParams.length} `;
   }
-  // console.log("options.owner_id", options.owner_id);
 
   if (options.owner_id) {
     return pool
@@ -213,7 +211,6 @@ const addProperty = function (property) {
       ]
     )
     .then((result) => {
-      console.log("add property", result.rows[0]);
       return result.rows[0];
     })
     .catch((err) => {
