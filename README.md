@@ -3,8 +3,9 @@ Lighthouse BnB is an app that will revolutionize the travel industry. It will al
 
 ## Final Product
 
-!["Screenshot of URLs Index page"]()
-!["Screenshot of URLs Edit page"]()
+!["Screenshot of URLs Index page"](https://github.com/ealhl/LightBnB/blob/main/docs/Screenshot%202024-02-24%20at%2011.27.28%E2%80%AFPM.png)
+!["Screenshot of URLs My Reservation page"](https://github.com/ealhl/LightBnB/blob/main/docs/Screenshot%202024-02-24%20at%2011.28.00%E2%80%AFPM.png)
+!["Screenshot of URLs My Listing page"](https://github.com/ealhl/LightBnB/blob/main/docs/Screenshot%202024-02-24%20at%2011.28.06%E2%80%AFPM.png)
 
 ## Getting Started
 
